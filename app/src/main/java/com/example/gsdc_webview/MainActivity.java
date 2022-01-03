@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // 앱에서 표시할 url 입력
-        webView.loadUrl("https://do.funation.io");
+        webView.loadUrl("https://gdsc-seoultech.github.io/");
         webView.setWebViewClient(new WebViewClient());
     }
 
@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
